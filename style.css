@@ -1,0 +1,151 @@
+* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.deployed-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Intro section */
+#intro {
+  text-align: center;
+  padding: 50px;
+}
+
+#intro img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+#intro h1 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+#intro p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Feature section */
+#features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.feature {
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.feature h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.feature p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Gameplay section */
+#gameplay {
+  text-align: center;
+  padding: 50px;
+}
+
+#gameplay h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+/* Leaderboard section */
+#leaderboard {
+  text-align: center;
+  padding: 50px;
+}
+
+#leaderboard h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+/* About section */
+#about {
+  text-align: center;
+  padding: 50px;
+}
+
+#about h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.about-info {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-info p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.about-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.about-info li {
+  margin-bottom: 10px;
+}
+
+.about-info a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
